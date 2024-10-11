@@ -1,0 +1,9 @@
+openai
+edge-tts
+SpeechRecognition
+keyboard
+sounddevice
+pydub
+numpy
+imageio
+opencv-python
