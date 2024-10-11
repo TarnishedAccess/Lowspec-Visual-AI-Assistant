@@ -11,8 +11,11 @@ Small experiment project to see how hard it'd really be to make a basic AI vtube
 
 Download the repo
 Install [Python](https://www.python.org/downloads/)
+
 Install [Vtube Studio](https://store.steampowered.com/app/1325860/VTube_Studio/)
+
 Install [Voicemeeter](https://vb-audio.com/Voicemeeter/)
+
 Using CMD, navigate to the folder and input "pip install -r requirements.txt"
 
 ## Usage
