@@ -1,4 +1,4 @@
-# Project Name
+# Virtual AI Assistant
 
 Small experiment project to see how hard it'd really be to make a basic AI vtuber. Turns out it's not that hard.
 
