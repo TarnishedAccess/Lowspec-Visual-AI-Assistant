@@ -2,7 +2,7 @@ from g4f import models
 import asyncio
 import edge_tts
 import speech_recognition as sr
-import chat_bad
+import chat
 import threading
 import keyboard
 import sounddevice as sd
@@ -69,7 +69,7 @@ def generate_audio(text, voice):
 
     asyncio.run(text_to_speech_async())
 
-chatbot = chat_bad.ChatManager(model=models[0])
+chatbot = chat.ChatManager(model=models[0])
 reset_audio()
 if USE_VISUAL:
     visual_thread = threading.Thread(target=visualization)
