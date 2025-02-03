@@ -16,8 +16,9 @@ asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     
 OUTPUT_FILE = "output_audio.mp3"
 
+#This changes based on models that come and go. If there are any errors, they will likely be here. Try out different models and see what works.
 models = [
-    "gpt-3.5-turbo",
+    models.p1
 ]
 
 def reset_audio():

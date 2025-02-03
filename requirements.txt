@@ -1,4 +1,4 @@
-openai
+g4f
 edge-tts
 SpeechRecognition
 keyboard
@@ -7,3 +7,4 @@ pydub
 numpy
 imageio
 opencv-python
+asyncio

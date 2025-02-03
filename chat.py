@@ -1,5 +1,5 @@
-import openai
-from config import DEFAULTCONTEXT, API_KEY
+from config import DEFAULTCONTEXT
+import g4f
 
 class ChatManager:
     def __init__(self, model, context=DEFAULTCONTEXT, memory=None, memory_limit=10):
@@ -33,7 +33,7 @@ class ChatManager:
         messages.append({"role": "system", "content": self.context})
         messages.extend(self.memory)
         messages.append({"role": "user", "content": f"{user}: {user_message}"})
-        response = openai.ChatCompletion.create(
+        response = g4f.ChatCompletion.create(
             model=self.model, messages=messages
         )
-        return response['choices'][0]['message']['content']
+        return response
